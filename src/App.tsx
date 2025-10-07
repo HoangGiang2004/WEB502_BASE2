@@ -3,6 +3,7 @@ import Layout from './pages/Layout'
 import List from './pages/List'
 import Detail from './pages/Detail'
 import Add from './pages/Add'
+import UseList from './pages/useList'
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
             Xin chào Admin
           </h1>
         </div>} />
-        <Route path="products" element={<List />} />
+        {/* <Route path="products" element={<List />} /> */}
+        <Route path="products" element={<UseList />} />
         <Route path="products/:id" element={<Detail />} />
-        <Route path="products/add" element={<Add/>} />
+        <Route path="products/add" element={<Add />} />
         <Route path="about" element={<h1>About</h1>} />
       </Route>
       <Route path="*" element={<h1>Not found</h1>} />
