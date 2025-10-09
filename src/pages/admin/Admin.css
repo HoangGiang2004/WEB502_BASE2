@@ -1,0 +1,264 @@
+.admin-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    color: #333;
+}
+
+.admin-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.admin-form {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+.admin-form h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.form-grid textarea {
+    grid-column: span 2;
+    resize: none;
+    height: 80px;
+}
+
+.admin-form input,
+.admin-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    transition: border 0.2s;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #0056d2;
+}
+
+.btn-secondary {
+    background: #eee;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.table-container {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th {
+    background: #f8f9fa;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    color: #555;
+}
+
+.admin-table td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.thumb {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.price {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.desc {
+    color: #666;
+    max-width: 250px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.actions button {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: opacity 0.2s;
+}
+
+.btn-edit {
+    background: #ffc107;
+}
+
+.btn-edit:hover {
+    opacity: 0.85;
+}
+
+.btn-delete {
+    background: #dc3545;
+}
+
+.btn-delete:hover {
+    opacity: 0.85;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 6px;
+}
+
+.page-btn {
+    background: #f1f1f1;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.page-btn.active {
+    background: #007bff;
+    color: white;
+}
+
+.admin-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+.admin-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #222;
+}
+
+.filter-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filter-box input {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.filter-box button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.filter-box button:hover {
+    background: #005ed9;
+}
+
+.table-container {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th {
+    background: #f5f5f5;
+    text-align: left;
+    padding: 12px;
+    font-weight: 600;
+}
+
+.admin-table td {
+    padding: 10px 12px;
+    border-top: 1px solid #eee;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 6px;
+}
+
+.page-btn {
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.page-btn.active {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
